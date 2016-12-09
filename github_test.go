@@ -135,8 +135,8 @@ var githubAPI = []route{
 	// Organizations
 	{"GET", "/users/<user>/orgs"},
 	{"GET", "/user/orgs"},
-	{"GET", "/orgs/<org>>"},
-	//{"PATCH", "/orgs/<org>>"},
+	{"GET", "/orgs/<org>"},
+	//{"PATCH", "/orgs/<org>"},
 	{"GET", "/orgs/<org>/members"},
 	{"GET", "/orgs/<org>/members/<user>"},
 	{"DELETE", "/orgs/<org>/members/<user>"},
